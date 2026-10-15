@@ -59,7 +59,8 @@ The cloud environment provides remote visualization through real-time gauges, st
 Ensure I2C is enabled on the Raspberry Pi:
 
 sudo raspi-config
-# Navigate to Interface Options -> I2C -> Enable
+
+Navigate to Interface Options -> I2C -> Enable
 
 Verify the PCF8591 module is detected at address `0x48`:
 
